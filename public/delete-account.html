@@ -60,9 +60,24 @@
       Pour effectuer cette demande, cliquez sur le bouton ci-dessous et envoyez-nous un email.
     </p>
 
-    <a class="button" href="mailto:armelkennedy500@gmail.com?subject=Demande de suppression de compte">
-      Demander la suppression
-    </a>
+    <form action="https://formspree.io/f/TON_ID" method="POST" style="margin-top:20px;">
+  
+  <input 
+    type="email" 
+    name="email" 
+    placeholder="Votre email" 
+    required
+    style="width:100%; padding:10px; margin-bottom:10px; border-radius:5px; border:1px solid #ccc;"
+  >
+
+  <button 
+    type="submit"
+    style="padding:12px 20px; background-color:#e53935; color:white; border:none; border-radius:5px; cursor:pointer;"
+  >
+    Supprimer mon compte
+  </button>
+
+</form>
 
     <p class="footer">
       Votre demande sera traitée sous 48 heures. Toutes les données associées seront supprimées définitivement.
